@@ -1,0 +1,32 @@
+@font-face {
+	font-family: "Balsamiq Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local("BalsamiqSans Regular"), 
+		 local("BalsamiqSans-Regular"),
+		 url("/assets/fonts/BalsamiqSans-Regular.ttf") format("ttf"),
+		 url("/assets/fonts/BalsamiqSans-Regular.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Balsamiq Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: local("BalsamiqSans Bold"), 
+		 local("BalsamiqSans-Bold"),
+		 url("/assets/fonts/BalsamiqSans-Bold.ttf") format("ttf"),
+		 url("/assets/fonts/BalsamiqSans-Bold.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local("Roboto Regular"), 
+		 local("Roboto-Regular"),
+		 url("/assets/fonts/Roboto-Regular.ttf") format("ttf"),
+		 url("/assets/fonts/Roboto-Regular.woff") format("woff");
+}

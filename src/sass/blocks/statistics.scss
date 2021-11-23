@@ -1,0 +1,54 @@
+@import '../variables';
+
+.statistics {
+	margin-bottom: 8px;
+}
+
+.statistics__title {
+	margin-bottom: 16px;
+}
+
+.statistics__list {
+	@include list-reset;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.statistics__item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+
+	&:not(:last-child) {
+		margin-bottom: 16px;
+	}
+}
+
+.statistics__item-name {
+	padding: 0;
+	margin: 0;
+	text-align: right;
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	white-space: pre-wrap;
+	width: 50%;
+	margin-right: 16px;
+}
+
+.statistics__item-content {
+	padding: 0;
+	margin: 0;
+	color: $colorTextGray;
+	width: 50%;
+	
+	& a {
+		text-decoration: none;
+		padding: 0;
+		margin: 0;
+		color: $colorLink;
+	}
+}

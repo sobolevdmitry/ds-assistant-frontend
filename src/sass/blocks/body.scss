@@ -1,0 +1,16 @@
+@import '../variables';
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: $colorText;
+	background-color: $backgroundMobile;
+
+	@media (min-width: 488px) {
+		background: $backgroundDesktop;
+	}
+}

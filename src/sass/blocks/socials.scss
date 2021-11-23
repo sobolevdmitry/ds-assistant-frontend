@@ -1,0 +1,34 @@
+.socials {
+	margin-bottom: 8px;
+}
+
+.socials__title {
+	margin-bottom: 16px;
+}
+
+.socials__list {
+	@include list-reset;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.socials__item {
+	&:not(:last-child) {
+		margin-right: 16px;
+	}
+}
+
+.socials__link {
+	display: block;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	width: 32px;
+	height: 32px;
+}
+
+.socials__img {
+	width: 32px;
+	height: 32px;
+}
